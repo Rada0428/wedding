@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- komp header -->
+    <header class="header">
+        <div class="header-in">
+            <nav>
+                <ul>
+                    <li><a href="#"class="blue">Mary & Anno </a></li>
+                    <li><a href="index.html#wed">The Wedding</a></li>
+                    <li><a href="index.html#reg">Registry</a></li>
+                    <li><a href="./getting.html">Getting There</a></li>
+    
+                </ul>
+            </nav>
+            <div class="login"><i class="fa-solid fa-circle-user"></i>
+            <p class="log">Log in</p>
+            <a href="" class="rsvp">RSVP</a>
+            </div>
+        </div>   
+        </header>
+    
+        <!-- Mobi header -->
+        <header class="mob">
+            <ul>
+                <li>
+                    Mary & Anno
+                </li>
+                <li>
+                    <details>
+                    <summary><span class="line1"></span>
+                            <span class="line2"></span>
+                            <span class="line3"></span>
+                    </summary>
+                    <ul class="det">
+                        <li><i class="fa-solid fa-circle-user"></i><a href="#">Log in</a></li>
+                        <li><a href="#">The Wedding</a></li>
+                        <li><a href="#">Registry</a></li>
+                        <li><a href="#">Getting There</a></li>
+                        <li><a href="#" class="rsvp">RSVP</a></li>
+                    </ul>
+                    </details>
+                </li>
+                </ul>
+            </header>
+            <main>
+                <div class="page5">
+                    <div class="forms">
+                    <h3>Add your details</h3>
+                    <form action="">
+                    <div class="radio">
+                    <input type="radio" name="go" id="radio1">
+                    <label for="radio1">I am Going</label>
+                        <input type="radio" name="go" id="radio2">
+                        <label for="radio2">Not Going</label>
+                    </div>
+                    <div class="name">
+                        <div class="first">
+                            <label for="name">*First name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="last">
+                            <label for="last">*Last Name</label>
+                            <input type="text" id="last" required>
+                        </div>
+                    </div>
+                    <div class="email">
+                        <label for="email">*Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="number">
+                        <label for="num">Number of Guests Attending</label>
+                        <select name="" id="num">
+                            <option value="">0</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                         </select>
+                    </div>
+                    <div class="diet">
+                        <label for="diet">Dietary restrictions</label>
+                        <select name="" id="diet">
+                            <option value="">No Dietary Restrictions</option>
+                            <option value="">Gloten Free</option>
+                            <option value="">Vegetarian</option>
+                            <option value="">Vegan</option>
+                            <option value="">No Dairy</option>
+                        </select>
+                    </div>
+                    <div class="req">
+                        <label for="req">Special Requests</label><br>
+                        <textarea name="" id="req" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="sub">
+                            <button>SUBMIT</button>
+                    </div>
+                   
+                    </form>
+                </div>
+                <div class="end">
+                    <h4>Mary & Anno's Wedding</h4>
+                    <p>22 Apr 2035, 12:00</p>
+                    <p>San Francisco</p>
+                </div>
+                </div>
+            </main>
+            <footer>
+                <div class="foot1">
+                    <h2>Have Questions?</h2>
+                    <h3>Call or text us</h3>
+                    <div class="tel">
+                    <span>Mary: 123-456-7890</span>
+                    <span>Anno: 123-456-7890</span></div>
+                </div>
+                <div class="foot2">© 2035 by Mary and Anno. Powered and secured by Wix</div>
+        </footer>
+    
+</body>
+</html>
